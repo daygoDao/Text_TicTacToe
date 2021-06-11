@@ -6,7 +6,17 @@ This is my quick tic tac toe game that is text based.
     - start game intro  
     - Enter Player 1 name, then Player 2 name
     - RNG player 1 or 2 to see who starts and choose X or O
-    - 
+    - Set clean board and begin game
+    - First player input 
+        -check if input is valid
+        -check if it is a winning move
+        -check if 'cats game'
+        -print updated board
+    - Second player input
+        -check if input is valid
+        -check if it is a winning move
+        -check if 'cats game'
+        -print updated board
 
 
 
