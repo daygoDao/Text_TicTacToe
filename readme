@@ -1,0 +1,19 @@
+This is my quick tic tac toe game that is text based. 
+
+-2 player, local
+-text based game
+
+    - start game intro  
+    - Enter Player 1 name, then Player 2 name
+    - RNG player 1 or 2 to see who starts and choose X or O
+    - 
+
+
+
+• runGame – the game loop
+• initializeGame – sets the cells of the 2D array to spaces
+• printCurrentBoard – prints whatever is in the current board
+• getUserInput – gets the user input, and if valid, sets the game board appropriately
+• cellAlreadyOccupied – returns true if a given cell (by row and column) is already occupied
+• getWinner – returns “X”, “O” if there is a clear winner, or “ “ (a space) if there is no winner yet
+• isBoardFull – returns if the board is full or not
